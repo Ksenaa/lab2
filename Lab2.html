@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "author" content = "Алісова Ксенія">
+        <meta charset = "utf-8">
+        <title>Таблична верстка</title>
+        <style>
+            body{
+                background: url(background.jpg);
+            }
+            table {
+                width: 780px;
+                height: 600px;
+                font-family: "Arial";
+                text-align: left;
+                border-collapse: collapse;
+                background: #fffcf5;
+                border-radius: 20px;
+                }
+            th {
+                font-weight: normal;
+                color: #747574;
+                font-size: 10px;
+                padding: 12px 20px;
+                border-top: 1px solid #4e504e65;
+                border-bottom: 1px solid #4e504e65;
+                height: 20px;
+                    }
+            td {
+                height: 15px;
+                color: #3636368e;
+                font-size: 16px;
+                padding: 12px 20px;
+                border-bottom: 1px solid #4e504e65;
+                } 
+            tr:hover td{
+                background: #bebdbc;
+                } 
+            A {
+                text-decoration: none;
+                color: #181818; 
+            }
+                A:visited {
+                color: #181818;
+            }
+                #title{text-align: left; color: #656665; font-size: 30px;}
+                #name{width: 250px; padding: 12px 80px;} 
+                #two{color: #4d4d4d7e} 
+                #color{color: #181818;}
+        </style>
+    </head>
+    <body>    
+        <table id = 'table1' align = "center">
+            <tr><th id = "title">Алісова Ксенія <small>&ensp;<small><small>2 файла</small></small></small></th></tr>
+            <tr>
+                <th id = "name">Назва</th>
+                <th id = "two">Остання зміна файлу</th>
+                <th id = "two">Розмір файлу</th>
+            </tr>
+            <tr>
+                <td><img src = "image/папка.png" width="17px">&ensp;<a href="Webt.html">Web-технології</a></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td><img src = "image/папка.png" width="17px">&ensp;<a href="Webd.html"> Web-дизайн</a></td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+    </body>
+</html>

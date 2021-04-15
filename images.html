@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "author" content = "Алісова Ксенія">
+        <meta charset = "utf-8">
+        <title>Таблична верстка</title>
+        <style>
+            body{
+                background: url(background.jpg);
+            }
+            table {
+                width: 780px;
+                height: 600px;
+                font-family: "Arial";
+                text-align: left;
+                border-collapse: collapse;
+                background: #fffcf5;
+                border-radius: 20px;
+                }
+            th {
+                font-weight: normal;
+                color: #747574;
+                font-size: 10px;
+                padding: 12px 20px;
+                border-top: 1px solid #4e504e65;
+                border-bottom: 1px solid #4e504e65;
+                height: 20px;
+                }
+            td {
+                height: 15px;
+                color: #3636368e;
+                font-size: 16px;
+                padding: 12px 20px;
+                border-bottom: 1px solid #4e504e65;
+                } 
+            tr:hover td{
+                background: #bebdbc;
+                } 
+            #title{text-align: left; color: #656665; font-size: 30px;}
+            #name{width: 250px; padding: 12px 80px;} 
+            #two{color: #4d4d4d7e}
+            #color{color: #181818;} 
+            A {
+                text-decoration: none; 
+                color: #181818; 
+            }
+            A:visited {
+                color: #181818;
+                }
+        </style>
+    </head>
+    <body>    
+        <table id = 'table1' align = "center">
+            <tr><th id = "title">images<small>&ensp;<small><small>3 файла</small></small></small></th></tr>
+            <tr>
+                <th id = "name">Назва</th>
+                <th id = "two">Остання зміна файлу</th>
+                <th id = "two">Розмір файлу</th>
+            </tr>
+            <tr>
+                <td><img src = "image/картинка.png" width="17px">&ensp;
+                    <a href="https://avatars.mds.yandex.net/get-zen_doc/235144/pub_5c22b57b6e336a00aa8e15f6_5c22ed3fe12fa300aac1936f/scale_1200">
+                    <img src = "" >Волокнисте полярне сяйво</a></td>
+                <td>16 бер. 2021 р.</td>
+                <td>1,33 МБ</td>
+            </tr>
+            <tr>
+                <td><img src = "image/картинка.png" width="17px">&ensp;
+                    <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Polarlicht_2.jpg/1200px-Polarlicht_2.jpg">
+                    <img src = "" >Полярне сяйво в Норвегії</a></td>
+                <td>14 бер. 2021 р.</td>
+                <td>297 КБ </td>
+            </tr>
+            <tr>
+                <td><img src = "image/картинка.png" width="17px">&ensp;
+                    <a href="https://s3.nat-geo.ru/images/2019/4/10/7481607a3fb24e9e91d9cf60afe9c2eb.max-2000x1000.jpg">
+                    <img src = "" >Полярне сяйво на Юпітері</a></td>
+                <td>14 бер. 2021 р.</td>
+                <td>205 КБ </td>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+    </body>
+</html>
